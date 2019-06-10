@@ -17,6 +17,7 @@ deploy:
   bucket_path: "docker-react-cloud"
   on:
     branch: "master"
-  access_key_id: "AKIATK43MWPKCQTOF4QO"
+  access_key_id: "AKIATK43MWPKCQTOF4QO"    #"$AWS-ACCESS-KEY" not working.
   secret_access_key:
-    secure: "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"
+    secure: "hxSIYAe0EKNwKOADO0AUDBcEAQMkI4qQknXlSwmu"    #"$AWS-SECRET-KEY" not working
+    
