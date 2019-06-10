@@ -13,6 +13,7 @@ class App extends Component {
         <p className="App-intro">
           I was changed on the Feature branch today 2019.06.10
         </p>
+        <p>this is the feature branch merge through travis-ci.org</p>
       </div>
     );
   }
